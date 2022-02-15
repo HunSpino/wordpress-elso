@@ -1,0 +1,11 @@
+{
+    "name": "petrik/wordpress",
+    "autoload": {
+        "psr-4": {
+            "Petrik\\Wordpress\\": "src/"
+        }
+    },
+    "require": {
+        "johnpbloch/wordpress": "^5.9"
+    }
+}
