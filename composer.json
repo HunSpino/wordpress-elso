@@ -8,8 +8,8 @@
     "require": {
         "johnpbloch/wordpress": "^5.9",
         "wpackagist-plugin/akismet":"dev-trunk",
-            "wpackagist-plugin/wordpress-seo":">=7.0.2",
-            "wpackagist-theme/hueman":"*"
+        "wpackagist-plugin/wordpress-seo":"^18.1",
+        "wpackagist-theme/astra":"^3.7"
     },
     
   "repositories":[
