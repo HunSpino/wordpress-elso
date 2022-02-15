@@ -1,0 +1,21 @@
+composer init
+composer require johnpbloch/wordpress
+git init
+wpackagist.org
+"repositories":[
+        {
+            "type":"composer",
+            "url":"https://wpackagist.org",
+            "only": [
+                "wpackagist-plugin/*",
+                "wpackagist-theme/*"
+            ]
+        }
+    ],
+Az extra résznél "wordpress/wp-content/plugins/{$name}" és a themes-t hozzáadni
+.gitignore
+vendor
+wordpress
+
+	"wpackagist-plugin/wordpress-seo":"^18.1",
+        "wpackagist-theme/astra":"^3.7"
